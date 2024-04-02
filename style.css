@@ -206,7 +206,7 @@ body {
 }
 
 .hide {
-    animation: slideup_res 200ms;
+    animation: slideup 200ms;
     display: none;
 }
 
