@@ -1,6 +1,6 @@
 -- Ảnh demo web full screen
 ![full_screen_minimize](image-2.png)
-![full_screen](image.png)
+![full_screen](image-6.png)
 
 -- Ảnh demo web responsive screen
 ![responsive_minimize_screen](image.png)
