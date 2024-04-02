@@ -3,5 +3,5 @@
 ![full_screen](image.png)
 
 -- Ảnh demo web responsive screen
-![responsive_minimize_screen](image-4.png)
-![responsive_screen](image-5.png)
+![responsive_minimize_screen](image.png)
+![responsive_screen](image-1.png)
