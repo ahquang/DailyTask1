@@ -20,22 +20,13 @@
     }
 }
 
-body {
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    margin: 0;
-    padding: 0;
-    background-color: rgb(235, 231, 231);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
 
-}
 
 .main-component {
+    /* position: relative;
+    top: 100px;
+    left: 250px; */
+    margin: 20px;
     background-color: white;
     border-radius: 24px;
     width: 960px;
@@ -45,6 +36,7 @@ body {
 
 .main-item-1 {
     display: flex;
+    height: 200px;
 }
 
 .main-item-2 {
@@ -59,34 +51,63 @@ body {
 }
 .img-container img {
     max-width: 100%;
-    height: 12rem;
+    height: 10rem;
     border-radius: 10px;
     padding: 15px;
 }
 
 .product-infor {
     width: 60%;
-    padding: 20px 20px 0px 20px;
-    font-size: 18px;
 }
 
 .title {
+    margin-top: 10px;
     display: flex;
     align-items: center;
 }
 
 .title h3 {
     margin: 0;
+    font-weight: 700;
+}
+
+.title span {
+    background-color: rgba(242, 245, 255, 1);
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.content {
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 28px;
+   margin: 10px 0px 10px 0px; 
+}
+.scroll-1 {
+    display: flex;
+    align-items: center;
+}
+.scroll-1 span {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+}
+
+.scroll-1 i{
+   font-size: 16px;
+   padding-left: 5px; 
 }
 
 .product-rate {
     border-left: 1px solid rgba(232, 232, 232, 1);
-    padding: 30px 0px 0px 0px;
+    padding: 20px 0px 10px 0px;
     width: 25%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
+    justify-content: center;
 }
 
 .product-rate button {
@@ -103,10 +124,49 @@ body {
     justify-content: center;
     align-items: center;
     margin: 20px;
+    /* height: 449px; */
+}
+
+.rating label {
+    color: #18A661;
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+    line-height: 29px;
 }
 
 .rating span {
     padding: 5px;
+}
+
+.rating i{
+    padding-right: 3px; 
+}
+
+#more-info-btn label{
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    line-height: 16px;
+    color: white;
+    cursor: pointer;
+}
+
+.scroll-2 {
+    display: flex;
+    align-items: center;
+}
+
+.scroll-2 span{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+}
+
+.scroll-2 i {
+    font-size: 16px;
+    margin-left: 5px;
 }
 
 .product-highlights {
@@ -116,9 +176,9 @@ body {
     border-top: 1px solid rgba(232, 232, 232, 1);
 }
 
-.container {
+/* .container {
     display: flex;
-}
+} */
 
 .sale {
     display: flex;
@@ -150,11 +210,12 @@ body {
 }
 
 .sale {
-    padding: 0px 40px 0px 40px;
+    /* padding: 0px 40px 0px 40px; */
 }
 
 .scroll-btn {
     background-color: rgb(24, 166, 97, 1);
+    border: 1px solid rgb(24, 166, 97, 1);
     border-radius: 38px;
     height: 36px;
     width: 36px;
@@ -163,6 +224,7 @@ body {
 
 .goto-btn {
     color: rgb(24, 166, 97, 1);
+    border: 1px solid rgb(24, 166, 97, 1);
     background-color: transparent;
     font-size: 16px;
     font-weight: 700;
@@ -173,7 +235,7 @@ body {
 }
 
 .banner {
-    position: fixed;
+    position: absolute;
     border-radius: 0px 0px 8px 8px;
     background-color: rgba(244, 164, 3, 1);
     color: white;
@@ -190,12 +252,18 @@ body {
 
 .brand-list li {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     padding-bottom: 40px;
 }
 
 .brand-list li label {
     padding-left: 10px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
 }
 
 .text {
@@ -235,12 +303,13 @@ body {
         /* margin: 0;
         padding: 0; */
         flex-wrap: wrap;
+        height: 250px;
 
     }
 
     .product-rate {
         order: 1;
-        padding: 20px 0px 0px 0px;
+        /* padding: 20px 0px 0px 0px; */
         width: 39%;
     }
 
@@ -260,7 +329,7 @@ body {
 
     .product-rate .btn-group-1 {
         position: relative;
-        top: 100px;
+        top: 70px;
         left: 85px;
 
     }
@@ -271,7 +340,7 @@ body {
 
     .btn-box {
         order: 3;
-        height: 20px;
+        height: 80px;
     }
     
     .btn-group-1 {
@@ -280,20 +349,20 @@ body {
 
     .img-container {
         order: 2;
-        padding: 10px 20px;
-        margin: 0;
+        padding: 5px 25px;
+        margin: 0px;
     }
 
     .img-container .product-img {
-        margin: 0;
-        padding: 0;
+        margin: 0px;
+        padding: 0px;
     }
 
-    .img-container img {
-        height: 10rem;
-    }
 
     .product-infor {
+        margin: 0;
+        padding: 0px 10px;
+        font-size: 12px;
         order: 3;
         width: 32vw;
         padding-top: 0px;
@@ -303,13 +372,14 @@ body {
 
     .title {
         order: 2;
+        margin: 0px;
     }
 
-    .title h3 {
+    .product-infor .title h3 {
         font-size: 16px;
     }
 
-    .title span {
+    .product-infor .title span {
         font-size: 12px;
     }
 
@@ -320,12 +390,15 @@ body {
         overflow: hidden;
         text-overflow: ellipsis;
         line-height: 26px;
+        font-size: 14px;
+        margin: 0px;
+        padding: 0px;
     }
 
-    .btn-box {
+    /* .btn-box {
         order: 3;
-        height: 80px;
-    }
+        height: 80vh;
+    } */
 
     .scroll-1 {
         display: none;
@@ -347,16 +420,16 @@ body {
 
     .brand-list li {
         padding-bottom: 20px;
-        display: flex;
+        /* justify-content: center; */
     }
 
-    .btn-group-2 {
+    /* .btn-group-2 {
         width: 80%;
         margin-left: 80px;
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
+    } */
 
     .sale {
         display: none;
@@ -367,7 +440,11 @@ body {
         margin: 0px 0px 15px 0px;
     }
 
+    .scroll-btn {
+        margin: 0px 30px;
+    }
     .goto-btn {
+        /* margin-left: 60px; */
         transform: rotate(90deg);
         text-transform: uppercase;
     }
