@@ -1,16 +1,14 @@
 import React from 'react';
-import Product from "../components/Product.js";
+import ProductList from "../components/Products/ProductList.jsx"
 import { listData } from '../config/listData.js';
-import "../styles/listProduct.css"
+import "../styles/_container.scss"
 
 const ShowListProduct = () => {
-    const dataProduct = [...listData];
-    console.log(dataProduct);
     return (
         <div className="main-div">
                 {
-                    dataProduct.map((product, index) => (
-                        <Product  product={product}/>
+                    listData.map((product) => (
+                        <ProductList  product={product}/>
                     ))
                 }
         </div>

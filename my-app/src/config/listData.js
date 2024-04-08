@@ -31,7 +31,7 @@ export const listData = [
         sale: '7%',
         details: [
             {
-                highlights: ['Cooling capacity (btu): 12000 - num ber of cooling speeds: 3', 'Weight: 75.00 lbs - 115 volts', 'Width: 19" x height: 14.5" x depth: 19.81"'],
+                highlights: ['Cooling capacity (btu): 12000 - number of cooling speeds: 3', 'Weight: 75.00 lbs - 115 volts', 'Width: 19" x height: 14.5" x depth: 19.81"'],
                 market: [
                     {
                         name: 'Shopee',
@@ -55,7 +55,7 @@ export const listData = [
         sale: '7%',
         details: [
             {
-                highlights: ['Cooling capacity (btu): 12000 - num ber of cooling speeds: 3', 'Weight: 75.00 lbs - 115 volts', 'Width: 19" x height: 14.5" x depth: 19.81"'],
+                highlights: ['Cooling capacity (btu): 12000 - number of cooling speeds: 3', 'Weight: 75.00 lbs - 115 volts', 'Width: 19" x height: 14.5" x depth: 19.81"'],
                 market: [
                     {
                         name: 'Walmart',
@@ -79,7 +79,7 @@ export const listData = [
         sale: '7%',
         details: [
             {
-                highlights: ['Cooling capacity (btu): 12000 - num ber of cooling speeds: 3', 'Weight: 75.00 lbs - 115 volts', 'Width: 19" x height: 14.5" x depth: 19.81"'],
+                highlights: ['Cooling capacity (btu): 12000 - number of cooling speeds: 3', 'Weight: 75.00 lbs - 115 volts', 'Width: 19" x height: 14.5" x depth: 19.81"'],
                 market: [
                     {
                         name: 'Walmart',

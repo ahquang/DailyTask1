@@ -1,0 +1,19 @@
+@mixin flex($align-items: center, $justify-content: center) {
+  display: flex;
+  align-items: $align-items;
+  justify-content: $justify-content;
+}
+
+@mixin buttonTheme($font-weight: 700, $font-size: 16px, $text-align: center, $line-height: 16px, $border-radius: 38px) {
+  font-weight: $font-weight;
+  font-size: $font-size;
+  text-align: $text-align;
+  line-height: $line-height;
+  border-radius: $border-radius;
+}
+
+@mixin responsive($screen-width) {
+  @media only screen and (max-width:$screen-width) {
+    @content;
+  }
+}
